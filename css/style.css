@@ -1,0 +1,163 @@
+/*
+ * Base structure
+ */
+
+html, body {
+	height: 100%;
+	background-color: #E1DAC8;
+	font-family: "GoudyStM";
+}
+body {
+	color: #8E6144;
+	text-align: center;
+}
+
+.landing-page-wrapper {
+	display: table;
+	color: #FFFFFF;
+	width: 100%;
+	height: 100%; /* For at least Firefox */
+	min-height: 100%;
+	background: url(../img/pastrychef.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0% 80%;
+}
+.landing-page-wrapper-inner-tr {
+	display: table-row;
+}
+
+.center-container {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*
+ * Header
+ */
+.header-brand, .header-nav {
+	line-height: 50%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.header-nav > li {
+	display: inline-block;
+}
+.header-nav > li + li {
+	margin-left: 20px;
+}
+.header-nav > li > a {
+	padding-right: 0;
+	padding-left: 0;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff; /* IE8 proofing */
+	color: rgba(255,255,255,.75);
+	border-bottom: 2px solid transparent;
+}
+.header-nav > li > a:hover, .header-nav > li > a:focus {
+	background-color: transparent;
+	border-bottom-color: rgba(255,255,255,.25);
+}
+.header-nav > .active > a, .header-nav > .active > a:hover, .header-nav > .active > a:focus {
+	color: #fff;
+	border-bottom-color: #fff;
+}
+
+/*
+ * Cover
+ */
+
+.cover {
+	padding: 0 20px;
+}
+
+.cover .btn-lg {
+	padding: 10px 20px;
+	font-weight: bold;
+}
+
+/*
+ * Contact Me
+ */
+.contact-me {
+	color: #7B6F59;
+	background-color: #C9BBA0;
+}
+
+/*
+ * Footer
+ */
+
+footer {
+	margin: 10px 0 0 0;
+}
+
+/* Default button */
+.btn {
+	text-shadow: none; /* Prevent inheritence from `body` */
+	border-radius: 0px;
+	background-color: transparent;
+	border: 2px solid;
+	color: #FFFFFF;
+	border-color: #FFFFFF;
+}
+
+.btn:hover, .btn:focus {
+	background-color: #FFFFFF;
+	color: #AFAAA4;
+	border-color: #AFAAA4;
+}
+
+.btn-services {
+	color: #8E6144;
+	border-color: #8E6144;
+}
+
+/*
+ * Tablets are 768 and above.
+ */
+
+@media (min-width: 768px) {
+	.cover {
+		padding: 0 20%;
+	}
+	.header-brand {
+		float: left;
+	}
+	.header-nav {
+		float: right;
+	}
+
+	/* Pull out the header and footer */
+	.header {
+		position: relative;
+		padding: 30px;
+	}
+}
+
+/*
+ * Desktops are 992px and above. Large desktops are 1200px and above.
+ */
+@media (min-width: 992px) {
+	.services, .contact-me {
+		width: 100%;
+		height: 110%;
+		display: table;
+	}
+
+	.services > .row, .contact-me > .container {
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+
+/*
+ * Fonts
+ */
+@font-face {
+	font-family: GoudyStM;
+	src: url('../fonts/GoudyStM-webfont.ttf');
+}

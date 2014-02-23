@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Sweetscape</title>
+
+		<!-- Bootstrap -->
+		<link href="./css/bootstrap.min.css" rel="stylesheet" />
+		<link href="./css/style.css" rel="stylesheet" />
+		<link href="css/contactme.css" rel="stylesheet" type="text/css" />
+		<link href="css/component.css" rel="stylesheet" type="text/css" />
+		<script src="./js/modernizr.custom.js"></script>
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="landing-page-wrapper">
+			<div class="landing-page-wrapper-inner-tr">
+				<div class="header clearfix">
+					<h3 class="header-brand">The Logo.</h3>
+					<ul class="nav header-nav">
+						<li class="active">
+							<a href="#">Home</a>
+						</li>
+						<li>
+							<a href="#">Services</a>
+						</li>
+						<li>
+							<a href="#">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="landing-page-wrapper-inner-tr">
+				<div class="center-container">
+
+					<div class="cover">
+						<h1 class="cover-heading">Sweetscape.</h1>
+						<p class="lead">
+							Your one stop for personalized desserts for every occasion. I work with you to make sure you get what you want, without the hassle and for an affordable price.
+						</p>
+						<p class="lead">
+							<a href="#" class="btn btn-lg">Learn more</a>
+						</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="services container">
+			<!-- Example row of columns -->
+			<div class="row">
+				<h3>Hi, my name is Irena. Desserts are my passion.</h3>
+				<div class="col-sm-4">
+					<h2>Bakery</h2>
+					<p>
+						Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+					</p>
+					<p>
+						<a class="btn btn-services" href="#" role="button">View prices and details &raquo;</a>
+					</p>
+				</div>
+				<div class="col-sm-4">
+					<h2>Dessert Tables</h2>
+					<p>
+						Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+					</p>
+					<p>
+						<a class="btn btn-services" href="#" role="button">View prices and details &raquo;</a>
+					</p>
+				</div>
+				<div class="col-sm-4">
+					<h2>Specialty Cakes</h2>
+					<p>
+						Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+					</p>
+					<p>
+						<a class="btn btn-services" href="#" role="button">View details and details &raquo;</a>
+					</p>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="contact-me">
+			<div class="container">
+				<h3>Start the conversation.</h3>
+				<div class="row">
+					<div class="main clearfix">
+						<form id="nl-form" class="nl-form" action="mailto:irena.carino@gmail.com" method="post" enctype="text/plain">
+							Hi, my name is
+							<input type="text" name="My name is" value="" placeholder="Jane Doe" data-subline="For example: <em>Los Angeles</em> or <em>New York</em>"/>
+							.
+							<br />
+							I am interested in your
+							<select name="I am interested in" size="1">
+								<option value="general services" selected>general</option>
+								<option value="dessert table services">dessert table</option>
+								<option value="bakery services">bakery</option>
+								<option value="specialty cakes services">specialty cakes</option>
+							</select>
+							service. The personalized theme I want is
+							<input type="text" name="The theme is" value="" placeholder="still undecided" data-subline="For example: <em>Spiderman</em> or <em>Paris</em>"/>
+							.
+							<div class="nl-submit-wrap">
+								<button class="nl-submit" type="submit">
+									Message me!
+								</button>
+							</div>
+							<div class="nl-overlay"></div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="container-fluid">
+				<p>
+					&copy; Sweetscape 2014
+				</p>
+			</div>
+		</footer>
+
+		<!-- /container -->
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="./js/bootstrap.min.js"></script>
+		<script src="js/nlform.js"></script>
+		<script>
+			var nlform = new NLForm(document.getElementById('nl-form'));
+		</script>
+	</body>
+</html>
