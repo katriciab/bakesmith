@@ -4,12 +4,12 @@
 
 html, body {
 	height: 100%;
-	background-color: #E1DAC8;
+	background-color: #FFFFFF;
 	font-family: "GoudyStM";
 }
 
 body {
-	color: #8E6144;
+	color: #000000;
 	text-align: center;
 }
 
@@ -125,18 +125,18 @@ footer {
 	border-radius: 0px;
 	background-color: transparent;
 	border: 2px solid;
-	color: #FFFFFF;
-	border-color: #FFFFFF;
+	color: #000000;
+	border-color: #000000;
 }
 
 .btn:hover, .btn:focus {
-	color: #5C3216;
-	border-color: #5C3216;
+	color: #8E6144;
+	border-color: #8E6144;
 }
 
 .btn-services {
-	color: #8E6144;
-	border-color: #8E6144;
+	color: #000000;
+	border-color: #000000;
 }
 
 /*

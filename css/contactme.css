@@ -25,12 +25,13 @@
 /*
  * Contact Me
  */
+
 #contact-me {
-	background: #ECB94C;
+	background: #E1DAC8;
+	color: #000000;
 	font-size: 100%;
 	font-weight: 300;
 	overflow-x: hidden;
-	color: #FFFFFF;
 	padding: 30px 0;
 	margin: 0;
 	width: 100%;
@@ -44,12 +45,12 @@
 }
 
 #contact-me a {
-	color: #8E6144;
+	color: #5C3216;
 	text-decoration: none;
 }
 
 #contact-me a:hover, a:active {
-	color: #5C3216;
+	color: #8E6144;
 	text-decoration: none;
 }
 
