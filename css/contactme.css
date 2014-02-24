@@ -22,22 +22,33 @@
 	clear: both;
 }
 
-.contact-me {
+/*
+ * Contact Me
+ */
+#contact-me {
 	background: #ECB94C;
 	font-size: 100%;
-	padding: 0;
-	margin: 0;
 	font-weight: 300;
 	overflow-x: hidden;
 	color: #FFFFFF;
+	padding: 30px 0;
+	margin: 0;
+	width: 100%;
+	min-height: 100%;
+	display: table;
 }
 
-.contact-me a {
+#contact-me > .container {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#contact-me a {
 	color: #8E6144;
 	text-decoration: none;
 }
 
-.contact-me a:hover, a:active {
+#contact-me a:hover, a:active {
 	color: #5C3216;
 	text-decoration: none;
 }
@@ -141,5 +152,4 @@
 	.codrops-icon span {
 		display: none;
 	}
-
 }
