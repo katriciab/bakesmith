@@ -5,12 +5,17 @@
 html, body {
 	height: 100%;
 	background-color: #FFFFFF;
-	font-family: "GoudyStM";
+	font-size: 100%;
 }
 
 body {
+	font-family: "GoudyStM";
 	color: #000000;
 	text-align: center;
+}
+
+p {
+    font-size: 1.15em; /* 1.25em relative to a 16px baseline on the body will result in a 20px font size */
 }
 
 .scroll-to-top a {
@@ -49,7 +54,7 @@ body {
  */
 .header-brand, .header-nav {
 	line-height: 50%;
-	margin-top: 10px;
+	margin-top: 20px;
 	margin-bottom: 10px;
 }
 
@@ -62,7 +67,7 @@ body {
 .header-nav > li > a {
 	padding-right: 0;
 	padding-left: 0;
-	font-size: 16px;
+	font-size: 1.2em;
 	font-weight: bold;
 	color: #fff; /* IE8 proofing */
 	color: rgba(255,255,255,.75);
@@ -152,14 +157,9 @@ footer {
  */
 
 @media (min-width: 768px) {
-	h2 { 
-		font-size: 35px;
-	}
-	
-	h3 { 
-		font-size: 30px;
-	}
-
+	h1{font-size: 2.6em;}
+	h2{font-size: 2.4em;}
+	h3{font-size: 2.2em;}
 	.cover {
 		padding: 0 20%;
 	}
@@ -173,7 +173,7 @@ footer {
 	/* Pull out the header and footer */
 	.header {
 		position: relative;
-		padding: 30px;
+		padding: 20px;
 	}
 }
 
