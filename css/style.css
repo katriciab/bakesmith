@@ -18,6 +18,10 @@ p {
     font-size: 1.15em; /* 1.25em relative to a 16px baseline on the body will result in a 20px font size */
 }
 
+p.lead {
+	font-size: 1.5em;
+}
+
 .scroll-to-top a {
 	color:#FFFFFF;
 	position:fixed;
