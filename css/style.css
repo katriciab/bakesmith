@@ -112,6 +112,19 @@ body {
 }
 
 /*
+ * Social
+ */
+#social {
+	min-height: 80%;
+	display: table;
+}
+
+#social > .inner-center-wrapper {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/*
  * Footer
  */
 

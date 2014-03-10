@@ -5,14 +5,13 @@ body, html {
 }
 
 .back-nav a {
-	color: #FFFFFF;
-	position: fixed;
-	background: #000000;
-	padding: 15px 20px;
+	color:#FFFFFF;
+	position:fixed;
+	background:#000000;
+	bottom:20px;
+	right:20px;
+	padding: 15px 18px;
 	z-index: 99999;
-	position: absolute;
-	top: 20px;
-	left: 20px;
 }
 
 #service-img {
