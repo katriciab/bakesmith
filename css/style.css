@@ -180,10 +180,6 @@ section::after {
 	background-position: 50%;
 }
 
-
-
-
-
 /* Default button */
 .btn {
 	text-shadow: none; /* Prevent inheritence from `body` */
