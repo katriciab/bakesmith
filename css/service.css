@@ -4,6 +4,10 @@ body, html {
 	font-family: GoudyStM;
 }
 
+.back-nav {
+	position: absolute;
+}
+
 .back-nav a {
 	color:#FFFFFF;
 	position:fixed;
@@ -14,8 +18,8 @@ body, html {
 	z-index: 99999;
 }
 
-#service-img {
-	background: url(../img/bread.jpg);
+#bakery-img {
+	background: url(../img/bakerytable.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 0;
@@ -52,7 +56,8 @@ li :last-child {
 		height: 100%;
 	}
 
-	#service-img {
+	#bakery-img {
+		background-position: 0 75%;
 		width: 50%;
 		height: 100%;
 		position: fixed;
@@ -69,6 +74,12 @@ li :last-child {
 
 	.container {
 		width: initial;
+	}
+}
+
+@media (min-width: 992px) {
+	#bakery-img {
+		background-position: 0 0;
 	}
 }
 
