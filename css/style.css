@@ -74,6 +74,11 @@ a:hover {
 	margin-bottom: 10px;
 }
 
+#logo {
+    width: 200px;
+    height: 200px;
+}
+
 .header-nav > li {
 	display: inline-block;
 }
@@ -101,10 +106,12 @@ a:hover {
 /*
  * Cover
  */
+.shadow-text {
+	text-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
 
 .cover {
 	padding: 0 20px;
-	text-shadow: 0 0 6px rgba(0, 0, 0, .5);
 }
 
 .cover .btn-lg {
@@ -218,14 +225,6 @@ section::after {
 
 	.cover {
 		padding: 0 20%;
-	}
-
-	.header-brand {
-		float: left;
-	}
-
-	.header-nav {
-		float: right;
 	}
 
 	.landing-page-wrapper {
