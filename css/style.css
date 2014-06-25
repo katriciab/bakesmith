@@ -142,19 +142,6 @@ a:hover {
 }
 
 /*
- * Social
- */
-#social {
-	height: 400px;
-	display: table;
-}
-
-#social > .inner-center-wrapper {
-	display: table-cell;
-	vertical-align: middle;
-}
-
-/*
  * Footer
  */
 
@@ -214,6 +201,11 @@ section::after {
 	border-color: #8E6144;
 }
 
+.services-img {
+	width: 200px;
+	height: 200px;
+}
+
 /*
  * Tablets are 768 and above.
  */
@@ -221,7 +213,7 @@ section::after {
 @media (min-width: 768px) {
 	h1{font-size: 2.6em;}
 	h2{font-size: 2.4em;}
-	h3{font-size: 2.2em;}
+	h3{font-size: 2.0em;}
 
 	.cover {
 		padding: 0 20%;
@@ -242,9 +234,10 @@ section::after {
  * Desktops are 992px and above. Large desktops are 1200px and above.
  */
 @media (min-width: 992px) {
-	/*
-	 * Add stuff here later maybe?
-	 */
+	 .services-img {
+		width: 300px;
+		height: 300px;
+	}
 }
 
 /*

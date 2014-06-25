@@ -32,15 +32,9 @@ body, html {
 	margin-right: auto;
 	width: 50%;
 }
+
 li {
 	list-style-type: none;
-}
-li :first-child {
-	float: left;
-}
-
-li :last-child {
-	float: right;
 }
 
 @media (min-width: 768px) {
