@@ -18,8 +18,16 @@ body, html {
 	z-index: 99999;
 }
 
+#cakes-img {
+	background: url(../img/service_page_cakes.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	height: 250px;
+}
+
 #bakery-img {
-	background: url(../img/bakerytable.png);
+	background: url(../img/service_page_bakery.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 0;
@@ -52,6 +60,14 @@ li {
 
 	#bakery-img {
 		background-position: 0 75%;
+	}
+
+	#cakes-img {
+		background-position: 100% 0;
+	}
+
+	#bakery-img, #cakes-img {
+		
 		width: 50%;
 		height: 100%;
 		position: fixed;
@@ -74,6 +90,10 @@ li {
 @media (min-width: 992px) {
 	#bakery-img {
 		background-position: 0 0;
+	}
+
+	#cakes-img {
+		background-position: 100% 0;
 	}
 }
 
