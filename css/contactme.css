@@ -35,7 +35,7 @@
  */
 
 #contact-me {
-	background: #E1DAC8;
+	background: #FFDB99;
 	color: #000000;
 	font-size: 100%;
 	font-weight: 300;
@@ -53,12 +53,12 @@
 }
 
 #contact-me a {
-	color: #5C3216;
+	color: #1B1240;
 	text-decoration: none;
 }
 
 #contact-me a:hover, a:active {
-	color: #8E6144;
+	color: #876179;
 	text-decoration: none;
 }
 
@@ -94,7 +94,7 @@
 
 /* To Navigation Style */
 .codrops-top {
-	background: #fff;
+	background: #FFDB99;
 	background: rgba(255, 255, 255, 0.4);
 	text-transform: uppercase;
 	width: 100%;
@@ -212,16 +212,16 @@
 .nl-field-toggle, .nl-form input, .nl-form select {
 	line-height: inherit;
 	display: inline-block;
-	color: #5C3216;
+	color: #FFDB99;
 	cursor: pointer;
-	border-bottom: 1px dashed #5C3216;
+	border-bottom: 1px dashed #FF0000;
 }
 
 /* drop-down list / text element */
 .nl-field ul {
 	position: absolute;
 	visibility: hidden;
-	background: #8E6144;
+	background: #1B1240;
 	left: -0.5em;
 	top: 50%;
 	font-size: 80%;
@@ -246,7 +246,7 @@
 }
 
 .nl-field ul li {
-	color: #fff;
+	color: #FFDB99;
 	position: relative;
 }
 
@@ -257,7 +257,7 @@
 }
 
 .nl-dd ul li.nl-dd-checked {
-	color: #5C3216;
+	color: #FFDB99;
 }
 
 .no-touch .nl-dd ul li:hover {
@@ -265,7 +265,7 @@
 }
 
 .no-touch .nl-dd ul li:hover:active {
-	color: #5C3216;
+	color: #FFDB99;
 }
 
 /* icons for some elements */
@@ -295,7 +295,7 @@
 	width: 100%;
 	padding: 0.2em 2em 0.2em 0.5em;
 	border-bottom: none;
-	color: #fff;
+	color: #FFDB99;
 }
 
 .nl-form .nl-field-go {
@@ -313,7 +313,7 @@
 .nl-field-go:before {
 	content: "\e001";
 	font-size: 75%;
-	color: #fff;
+	color: #FFDB99;
 	width: 100%;
 	line-height: 2.5;
 	display: block;
@@ -350,16 +350,17 @@ input:active::-ms-input-placeholder, input:focus::-ms-input-placeholder {
 	font-style: italic;
 	font-weight: 400;
 	padding: 0.4em 1em;
-	color: #5C3216;
+	color: #FFFFFF;
 	border-top: 1px dashed rgba(255,255,255,0.7);
 }
 
 .nl-ti-text ul li.nl-ti-example em {
-	color: #fff
+	color: #FFDB99;
 }
 
 /* submit button */
 .nl-submit-wrap {
+	font-family: "UrbanoLightItalic";
 	margin-top: 0.4em;
 }
 
@@ -368,8 +369,8 @@ input:active::-ms-input-placeholder, input:focus::-ms-input-placeholder {
 	text-transform: uppercase;
 	cursor: pointer;
 	position: relative;
-	background: #8E6144;
-	color: #fff;
+	background: #F2102B;
+	color: #FFDB99;
 	padding: 0 1em 0 0;
 	font-size: 60%;
 	font-weight: bold;
@@ -378,19 +379,19 @@ input:active::-ms-input-placeholder, input:focus::-ms-input-placeholder {
 
 .nl-submit:before {
 	content: "\e001";
-	color: #fff;
+	color: #FFDB99;
 	float: left;
 	padding: 0 0.7em;
 	margin: 0 0.8em 0 0;
-	background: #5C3216;
+	background: #1B1240;
 }
 
 .no-touch .nl-form .nl-submit:hover, .no-touch .nl-form .nl-submit:active {
-	background: #5C3216;
+	background: #1B1240;
 }
 
 .no-touch .nl-form .nl-submit:hover:before {
-	background: #5C3216;
+	background: #1B1240;
 }
 
 /* overlay becomes visible when a field is opened */
@@ -426,6 +427,6 @@ input:active::-ms-input-placeholder, input:focus::-ms-input-placeholder {
 
 @media (min-width: 992px) {
 	.nl-form {
-		font-size: 2.8em;
+		font-size: 2.5em;
 	}
 }

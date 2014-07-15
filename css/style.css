@@ -4,12 +4,14 @@
 
 html, body {
 	height: 100%;
-	background-color: #FFFFFF;
+	background: url("../img/bg/concrete-wall-red.png");
+	background-repeat: repeat;
+	background-color: #FFFFF;
 	font-size: 100%;
 }
 
 body {
-	font-family: "GoudyStM";
+	font-family: "Gotham";
 	color: #000000;
 	text-align: center;
 }
@@ -23,21 +25,19 @@ p.lead {
 }
 
 p span {
-	font-size: 0.8em;
+	font-family: "UrbanoLight";
+	font-size: 1em;
 }
 
 a {
 	color: #8E6144;
 }
 
-a:hover {
-	color: ##5C3216;
-}
-
 .scroll-to-top a {
-	color:#FFFFFF;
+	border:2px #000 solid;
+	color:#000;
 	position:fixed;
-	background:#000000;
+	background: url("../img/bg/concrete-wall-red.png");
 	bottom:20px;
 	right:20px;
 	padding: 15px 18px;
@@ -50,10 +50,10 @@ a:hover {
 	width: 100%;
 	height: 100%; /* For at least Firefox */
 	min-height: 100%;
-	background: url(../img/pastrychef.jpg);
+	background: url(../img/background_cake_vintage.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: 0% 80%;
+	background-position:55% 10%;
 }
 .landing-page-wrapper-inner-tr {
 	display: table-row;
@@ -86,10 +86,10 @@ a:hover {
 	margin-left: 20px;
 }
 .header-nav > li > a {
+	font-family: "UrbanoLight";
 	padding-right: 0;
 	padding-left: 0;
-	font-size: 1.2em;
-	font-weight: bold;
+	font-size: 1.4em;
 	color: #fff; /* IE8 proofing */
 	color: rgba(255,255,255,.75);
 	border-bottom: 2px solid transparent;
@@ -107,7 +107,7 @@ a:hover {
  * Cover
  */
 .shadow-text {
-	text-shadow: 0 0 6px rgba(0, 0, 0, .5);
+	text-shadow: 0 0 6px rgba(0, 0, 0, .6);
 }
 
 .cover {
@@ -124,8 +124,6 @@ a:hover {
  */
 
 #services {
-	background: url(../img/paper.png);
-	background-repeat: repeat;
 	padding: 30px 0;
 	width: 100%;
 	height: 600px;
@@ -146,12 +144,12 @@ a:hover {
  */
 
 footer {
-	margin: 10px 0 0 0;
+	margin: 30px 0 20px 0;
 }
 
 /* Separator */
 section {
-	background: url(../img/paper.png);
+	background: transparent;
 }
 
 section::before,
@@ -173,37 +171,59 @@ section::after {
 .ss-style-zigzag::before {
 	display: block;
 	top: -90px;
-	background-image: -webkit-gradient(linear, 0 0, 300% 100%, color-stop(0.25, transparent), color-stop(0.25, #3498db));
-	background-image: linear-gradient(315deg, #E1DAC8 25%, transparent 25%), linear-gradient( 45deg, #E1DAC8 25%, transparent 25%);
+	background-image: -webkit-gradient(linear, 0 0, 300% 100%, color-stop(0.25, transparent), color-stop(0.25, #FFDB99));
+	background-image: linear-gradient(315deg, #FFDB99 25%, transparent 25%), linear-gradient( 45deg, #FFDB99 25%, transparent 25%);
 	background-position: 50%;
 }
 
 .ss-style-zigzag::after {
 	display: block;
 	top: -90px;
-	background-image: -webkit-gradient(linear, 0 0, 300% 100%, color-stop(0.25, transparent), color-stop(0.25, #3498db));
-	background-image: linear-gradient(-135deg, #E1DAC8 25%, transparent 25%), linear-gradient( 135deg, #E1DAC8 25%, #FFFFFF 25%);
+	background-image: -webkit-gradient(linear, 0 0, 300% 100%, color-stop(0.25, transparent), color-stop(0.25, #FFDB99));
+	background-image: linear-gradient(-135deg, #FFDB99 25%, transparent 25%), linear-gradient( 135deg, #FFDB99 25%, transparent 25%);
 	background-position: 50%;
 }
 
 /* Default button */
 .btn {
+	font-family: "UrbanoLightItalic";
 	text-shadow: none; /* Prevent inheritence from `body` */
 	border-radius: 0px;
 	background-color: transparent;
 	border: 2px solid;
-	color: #000000;
-	border-color: #000000;
+	color: #1B1240;
+	border-color: #1B1240;
 }
 
 .btn:hover, .btn:focus {
-	color: #8E6144;
-	border-color: #8E6144;
+	color: #F2102B;
+	border-color: #F2102B;
 }
 
 .services-img {
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
 	width: 200px;
 	height: 200px;
+}
+
+h1{
+	font-size: 2.6em;
+	color: #1B1240;
+	font-family: "UrbanoLightItalic";
+}
+
+h2{
+	font-size: 2.4em;
+	color: #1B1240;
+	font-family: "UrbanoLightItalic";
+}
+
+h3{
+	font-size: 2.0em;
+	color: #1B1240;
+	font-family: "UrbanoLightItalic";
 }
 
 /*
@@ -235,6 +255,9 @@ section::after {
  */
 @media (min-width: 992px) {
 	 .services-img {
+	 	border-radius: 150px;
+		-webkit-border-radius: 150px;
+		-moz-border-radius: 150px;
 		width: 300px;
 		height: 300px;
 	}
@@ -243,7 +266,18 @@ section::after {
 /*
  * Fonts
  */
+
 @font-face {
-	font-family: GoudyStM;
-	src: url('../fonts/GoudyStM-webfont.ttf');
+	font-family: Gotham;
+	src: url('../fonts/Gotham-Book.otf') format("opentype");
+}
+
+@font-face {
+	font-family: UrbanoLight;
+	src: url('../fonts/Urbano-LightCond.otf') format("opentype");
+}
+
+@font-face {
+	font-family: UrbanoLightItalic;
+	src: url('../fonts/Urbano-LightCondItalic.otf') format("opentype");
 }

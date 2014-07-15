@@ -1,7 +1,21 @@
 body, html {
 	width: 100%;
 	height: 100%;
-	font-family: GoudyStM;
+	font-family: Gotham;
+}
+
+h1, h2, h3 {
+	color:#F2102B;
+	font-family: "UrbanoLightItalic";
+}
+
+a {
+	font-weight: bold;
+	color: #1B1240;
+}
+
+a:hover{
+	color: #876179;
 }
 
 .back-nav {
@@ -9,12 +23,13 @@ body, html {
 }
 
 .back-nav a {
-	color:#FFFFFF;
+	border:2px #000 solid;
+	color:#000;
 	position:fixed;
-	background:#000000;
-	bottom:20px;
-	right:20px;
-	padding: 15px 18px;
+	background: url("../img/bg/concrete-wall-red.png");
+	bottom:10px;
+	right:10px;
+	padding: 15px 20px;
 	z-index: 99999;
 }
 
@@ -27,7 +42,7 @@ body, html {
 }
 
 #bakery-img {
-	background: url(../img/service_page_bakery.png);
+	background: url(../img/service_page_bakery.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 0;
@@ -97,10 +112,12 @@ li {
 	}
 }
 
-/*
- * Fonts
- */
 @font-face {
-	font-family: GoudyStM;
-	src: url('../fonts/GoudyStM-webfont.ttf');
+	font-family: Gotham;
+	src: url('../fonts/Gotham-Book.otf') format("opentype");
+}
+
+@font-face {
+	font-family: UrbanoLightItalic;
+	src: url('../fonts/Urbano-LightCondItalic.otf') format("opentype");
 }
