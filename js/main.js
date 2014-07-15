@@ -15,7 +15,7 @@ $(document).ready(function() {
 	feed.run();
 
 	<!-- Scroller script -->
-	var servicesScrollPos = document.getElementById("services").scrollTop;
+	var servicesScrollPos = document.getElementById("products").scrollTop;
 	var scrollToTopDiv = $('.scroll-to-top');
 	scrollToTopDiv.hide();
 
