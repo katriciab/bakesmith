@@ -4,7 +4,7 @@ body, html {
 	font-family: Gotham;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
 	color:#F2102B;
 	font-family: "UrbanoLightItalic";
 }
@@ -22,13 +22,17 @@ a:hover{
 	position: absolute;
 }
 
+h3.section-header {
+	padding: 10px 0 0 0;
+}
+
 .back-nav a {
 	border:2px #000 solid;
 	color:#000;
 	position:fixed;
 	background: url("../img/bg/concrete-wall-red.png");
-	bottom:10px;
-	right:10px;
+	bottom:20px;
+	right:20px;
 	padding: 15px 20px;
 	z-index: 99999;
 }
