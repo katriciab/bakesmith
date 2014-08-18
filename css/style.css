@@ -11,7 +11,7 @@ html, body {
 }
 
 body {
-	font-family: "Gotham";
+	font-family: "Brandon";
 	color: #000000;
 	text-align: center;
 }
@@ -22,11 +22,12 @@ p {
 
 p.lead {
 	font-size: 1.5em;
+	letter-spacing: 0.1em;
 }
 
 p span {
-	font-family: "UrbanoLight";
-	font-size: 1em;
+	font-family: "ApercuMono";
+	font-size: 0.7em;
 }
 
 a {
@@ -49,12 +50,13 @@ a {
 	color: #FFFFFF;
 	width: 100%;
 	height: 100%; /* For at least Firefox */
-	min-height: 100%;
+	min-height: 700px;
 	background: url(../img/bg/background_cake_vintage.jpg);
 	background-size: auto 150%;
 	background-repeat: no-repeat;
 	background-position: 55% 50%;
 }
+
 .landing-page-wrapper-inner-tr {
 	display: table-row;
 }
@@ -86,10 +88,12 @@ a {
 	margin-left: 20px;
 }
 .header-nav > li > a {
-	font-family: "UrbanoLight";
+	font-family: "ApercuMono";
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
 	padding-right: 0;
 	padding-left: 0;
-	font-size: 1.4em;
+	font-size: 1em;
 	color: #fff; /* IE8 proofing */
 	color: rgba(255,255,255,.75);
 	border-bottom: 2px solid transparent;
@@ -107,7 +111,7 @@ a {
  * Cover
  */
 .shadow-text {
-	text-shadow: 0 0 6px rgba(0, 0, 0, .6);
+	text-shadow: 0 0 6px rgba(0, 0, 0, .8);
 }
 
 .cover {
@@ -136,7 +140,7 @@ a {
 }
 
 #products h3 {
-	margin: 10px 20px;
+	margin: 40px 20px 10px 20px;
 }
 
 /*
@@ -186,7 +190,9 @@ section::after {
 
 /* Default button */
 .btn {
-	font-family: "UrbanoLightItalic";
+	font-family: "ApercuMono";
+	font-style: italic;
+	font-size: 0.7em;
 	text-shadow: none; /* Prevent inheritence from `body` */
 	border-radius: 0px;
 	background-color: transparent;
@@ -209,21 +215,24 @@ section::after {
 }
 
 h1{
-	font-size: 2.6em;
+	font-size: 2.4em;
 	color: #1B1240;
-	font-family: "UrbanoLightItalic";
+	font-family: "ApercuMono";
+	font-style: italic;
 }
 
 h2{
-	font-size: 2.4em;
+	font-size: 2.2em;
 	color: #1B1240;
-	font-family: "UrbanoLightItalic";
+	font-family: "ApercuMono";
+	font-style: italic;
 }
 
 h3{
-	font-size: 2.0em;
+	font-size: 2em;
 	color: #1B1240;
-	font-family: "UrbanoLightItalic";
+	font-family: "ApercuMono";
+	font-style: italic;
 }
 
 /*
@@ -270,16 +279,16 @@ h3{
  */
 
 @font-face {
-	font-family: Gotham;
-	src: url('../fonts/Gotham-Book.otf') format("opentype");
+	font-family: Brandon;
+	src: url('../fonts/Brandon_reg.otf') format("opentype");
 }
 
 @font-face {
-	font-family: UrbanoLight;
-	src: url('../fonts/Urbano-LightCond.otf') format("opentype");
+	font-family: BrandonItalic;
+	src: url('../fonts/Brandon_reg_it.otf') format("opentype");
 }
 
 @font-face {
-	font-family: UrbanoLightItalic;
-	src: url('../fonts/Urbano-LightCondItalic.otf') format("opentype");
+	font-family: ApercuMono;
+	src: url('../fonts/Apercu-Mono.otf') format("opentype");
 }
