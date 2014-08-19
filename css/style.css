@@ -6,7 +6,7 @@ html, body {
 	height: 100%;
 	background: url("../img/bg/concrete-wall-red.png");
 	background-repeat: repeat;
-	background-color: #FFFFF;
+	background-color: #FFFFFF;
 	font-size: 100%;
 }
 
@@ -58,7 +58,8 @@ a {
 }
 
 .landing-page-wrapper-inner-tr {
-	display: table-row;
+	display: table-cell;
+    vertical-align: middle;
 }
 
 .center-container {
@@ -72,8 +73,8 @@ a {
  */
 .header-brand, .header-nav {
 	line-height: 50%;
-	margin-top: 20px;
-	margin-bottom: 10px;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 #logo {
@@ -124,6 +125,13 @@ a {
 }
 
 /*
+ * Social
+ */
+#social {
+	margin-bottom: 30px
+}
+
+/*
  * Products
  */
 
@@ -143,14 +151,6 @@ a {
 	margin: 40px 20px 10px 20px;
 }
 
-/*
- * Footer
- */
-
-footer {
-	margin: 30px 0 20px 0;
-}
-
 /* Separator */
 section {
 	background: transparent;
@@ -168,7 +168,7 @@ section::after {
     left: 0;
     z-index: 10;
     display: block;
-    height: 90px;
+    height: 50px;
     background-size: 50px 100%;
 }
 
@@ -236,6 +236,28 @@ h3{
 }
 
 /*
+ * Testimonial
+ */
+ #testimonials {
+ 	background-color: #FFDB99;
+ 	width: 100%;
+ }
+
+ #testimonials-container {
+ 	padding: 30px 15% 30px 15%;
+ }
+
+ .testimonial {
+ 	padding: 10px 10px 0 10px;
+ }
+
+ .testimonial span {
+ 	font-family: "ApercuMono";
+ 	font-size: 0.8em;
+ 	color: #FF0000;
+ }
+
+/*
  * Tablets are 768 and above.
  */
 
@@ -270,7 +292,7 @@ h3{
 
 	.landing-page-wrapper {
 		background-size: cover;
-		background-position: 55% 85%;
+		background-position: 55% 55%;
 	}
 }
 

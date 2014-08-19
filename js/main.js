@@ -3,7 +3,7 @@ $(document).ready(function() {
 		var nlform = new NLForm(document.getElementById('nl-form'));
 
 	<!-- Instagram script -->
-	var pictureLimit = (window.innerWidth < 768) ? 4 : Math.floor($('#instafeed').width()/150) * 2;
+	var pictureLimit = (window.innerWidth < 768) ? 8 : Math.floor($('#instafeed').width()/150) * 2;
 	var feed = new Instafeed({
 		get: 'user',
 		userId: 632402179,
